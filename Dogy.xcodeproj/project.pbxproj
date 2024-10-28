@@ -13,6 +13,8 @@
 		D096DFBA2CCF7A5600C78E2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D096DFB92CCF7A5600C78E2D /* Preview Assets.xcassets */; };
 		D096DFC12CCF803C00C78E2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D096DFC02CCF803C00C78E2D /* LaunchScreen.storyboard */; };
 		D096DFC72CCFE48900C78E2D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DFC62CCFE48900C78E2D /* Extensions.swift */; };
+		D096DFC92CCFEBFD00C78E2D /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DFC82CCFEBFD00C78E2D /* FeedView.swift */; };
+		D096DFCB2CCFECDF00C78E2D /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DFCA2CCFECDF00C78E2D /* PostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		D096DFB92CCF7A5600C78E2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D096DFC02CCF803C00C78E2D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D096DFC62CCFE48900C78E2D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D096DFC82CCFEBFD00C78E2D /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		D096DFCA2CCFECDF00C78E2D /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		D096DFC32CCFE46600C78E2D /* Subviews */ = {
 			isa = PBXGroup;
 			children = (
+				D096DFCA2CCFECDF00C78E2D /* PostView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 			children = (
 				D096DFB22CCF7A5500C78E2D /* DogyApp.swift */,
 				D096DFB42CCF7A5500C78E2D /* ContentView.swift */,
+				D096DFC82CCFEBFD00C78E2D /* FeedView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -178,6 +184,8 @@
 			files = (
 				D096DFB52CCF7A5500C78E2D /* ContentView.swift in Sources */,
 				D096DFC72CCFE48900C78E2D /* Extensions.swift in Sources */,
+				D096DFC92CCFEBFD00C78E2D /* FeedView.swift in Sources */,
+				D096DFCB2CCFECDF00C78E2D /* PostView.swift in Sources */,
 				D096DFB32CCF7A5500C78E2D /* DogyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
