@@ -15,6 +15,8 @@
 		D096DFC72CCFE48900C78E2D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DFC62CCFE48900C78E2D /* Extensions.swift */; };
 		D096DFC92CCFEBFD00C78E2D /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DFC82CCFEBFD00C78E2D /* FeedView.swift */; };
 		D096DFCB2CCFECDF00C78E2D /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DFCA2CCFECDF00C78E2D /* PostView.swift */; };
+		D096DFCE2CCFF61C00C78E2D /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DFCD2CCFF61C00C78E2D /* PostModel.swift */; };
+		D096DFD02CCFFAB400C78E2D /* PostArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DFCF2CCFFAB400C78E2D /* PostArrayObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		D096DFC62CCFE48900C78E2D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D096DFC82CCFEBFD00C78E2D /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		D096DFCA2CCFECDF00C78E2D /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		D096DFCD2CCFF61C00C78E2D /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		D096DFCF2CCFFAB400C78E2D /* PostArrayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostArrayObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		D096DFB12CCF7A5500C78E2D /* Dogy */ = {
 			isa = PBXGroup;
 			children = (
+				D096DFCC2CCFF60800C78E2D /* Models */,
 				D096DFC52CCFE47C00C78E2D /* Helpers */,
 				D096DFC22CCFE3F500C78E2D /* Views */,
 				D096DFB62CCF7A5600C78E2D /* Assets.xcassets */,
@@ -109,6 +114,15 @@
 				D096DFC62CCFE48900C78E2D /* Extensions.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D096DFCC2CCFF60800C78E2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D096DFCD2CCFF61C00C78E2D /* PostModel.swift */,
+				D096DFCF2CCFFAB400C78E2D /* PostArrayObject.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,8 +197,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D096DFB52CCF7A5500C78E2D /* ContentView.swift in Sources */,
+				D096DFCE2CCFF61C00C78E2D /* PostModel.swift in Sources */,
 				D096DFC72CCFE48900C78E2D /* Extensions.swift in Sources */,
 				D096DFC92CCFEBFD00C78E2D /* FeedView.swift in Sources */,
+				D096DFD02CCFFAB400C78E2D /* PostArrayObject.swift in Sources */,
 				D096DFCB2CCFECDF00C78E2D /* PostView.swift in Sources */,
 				D096DFB32CCF7A5500C78E2D /* DogyApp.swift in Sources */,
 			);
