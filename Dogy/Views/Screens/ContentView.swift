@@ -18,7 +18,9 @@ struct ContentView: View {
                     Text("Feed")
                 }
             
-            Text("Screen 2")
+            NavigationView(content: {
+                BrowseView()
+            })
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                     Text("Browse")

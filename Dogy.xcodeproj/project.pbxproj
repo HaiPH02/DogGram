@@ -20,6 +20,8 @@
 		D096DFD22CD0C8CB00C78E2D /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DFD12CD0C8CB00C78E2D /* CommentsView.swift */; };
 		D0CED7922CD1031300519E90 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CED7912CD1031300519E90 /* MessageView.swift */; };
 		D0CED7942CD1054900519E90 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CED7932CD1054900519E90 /* CommentModel.swift */; };
+		D0CED7962CD128A100519E90 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CED7952CD128A100519E90 /* CarouselView.swift */; };
+		D0CED7982CD1296900519E90 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CED7972CD1296900519E90 /* BrowseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		D096DFD12CD0C8CB00C78E2D /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
 		D0CED7912CD1031300519E90 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		D0CED7932CD1054900519E90 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		D0CED7952CD128A100519E90 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		D0CED7972CD1296900519E90 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				D096DFCA2CCFECDF00C78E2D /* PostView.swift */,
+				D0CED7952CD128A100519E90 /* CarouselView.swift */,
 				D0CED7912CD1031300519E90 /* MessageView.swift */,
 			);
 			path = Subviews;
@@ -109,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				D096DFB22CCF7A5500C78E2D /* DogyApp.swift */,
+				D0CED7972CD1296900519E90 /* BrowseView.swift */,
 				D096DFB42CCF7A5500C78E2D /* ContentView.swift */,
 				D096DFC82CCFEBFD00C78E2D /* FeedView.swift */,
 				D096DFD12CD0C8CB00C78E2D /* CommentsView.swift */,
@@ -207,7 +213,9 @@
 			files = (
 				D096DFB52CCF7A5500C78E2D /* ContentView.swift in Sources */,
 				D096DFCE2CCFF61C00C78E2D /* PostModel.swift in Sources */,
+				D0CED7962CD128A100519E90 /* CarouselView.swift in Sources */,
 				D096DFC72CCFE48900C78E2D /* Extensions.swift in Sources */,
+				D0CED7982CD1296900519E90 /* BrowseView.swift in Sources */,
 				D0CED7922CD1031300519E90 /* MessageView.swift in Sources */,
 				D096DFC92CCFEBFD00C78E2D /* FeedView.swift in Sources */,
 				D096DFD02CCFFAB400C78E2D /* PostArrayObject.swift in Sources */,
