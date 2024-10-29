@@ -17,6 +17,7 @@
 		D096DFCB2CCFECDF00C78E2D /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DFCA2CCFECDF00C78E2D /* PostView.swift */; };
 		D096DFCE2CCFF61C00C78E2D /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DFCD2CCFF61C00C78E2D /* PostModel.swift */; };
 		D096DFD02CCFFAB400C78E2D /* PostArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DFCF2CCFFAB400C78E2D /* PostArrayObject.swift */; };
+		D096DFD22CD0C8CB00C78E2D /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DFD12CD0C8CB00C78E2D /* CommentsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D096DFCA2CCFECDF00C78E2D /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		D096DFCD2CCFF61C00C78E2D /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		D096DFCF2CCFFAB400C78E2D /* PostArrayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostArrayObject.swift; sourceTree = "<group>"; };
+		D096DFD12CD0C8CB00C78E2D /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				D096DFB22CCF7A5500C78E2D /* DogyApp.swift */,
 				D096DFB42CCF7A5500C78E2D /* ContentView.swift */,
 				D096DFC82CCFEBFD00C78E2D /* FeedView.swift */,
+				D096DFD12CD0C8CB00C78E2D /* CommentsView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				D096DFC92CCFEBFD00C78E2D /* FeedView.swift in Sources */,
 				D096DFD02CCFFAB400C78E2D /* PostArrayObject.swift in Sources */,
 				D096DFCB2CCFECDF00C78E2D /* PostView.swift in Sources */,
+				D096DFD22CD0C8CB00C78E2D /* CommentsView.swift in Sources */,
 				D096DFB32CCF7A5500C78E2D /* DogyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
