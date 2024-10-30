@@ -22,6 +22,7 @@
 		D0CED7942CD1054900519E90 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CED7932CD1054900519E90 /* CommentModel.swift */; };
 		D0CED7962CD128A100519E90 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CED7952CD128A100519E90 /* CarouselView.swift */; };
 		D0CED7982CD1296900519E90 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CED7972CD1296900519E90 /* BrowseView.swift */; };
+		D0CED79A2CD1D11700519E90 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CED7992CD1D11700519E90 /* ImageGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		D0CED7932CD1054900519E90 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 		D0CED7952CD128A100519E90 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		D0CED7972CD1296900519E90 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		D0CED7992CD1D11700519E90 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				D096DFCA2CCFECDF00C78E2D /* PostView.swift */,
 				D0CED7952CD128A100519E90 /* CarouselView.swift */,
+				D0CED7992CD1D11700519E90 /* ImageGridView.swift */,
 				D0CED7912CD1031300519E90 /* MessageView.swift */,
 			);
 			path = Subviews;
@@ -217,6 +220,7 @@
 				D096DFC72CCFE48900C78E2D /* Extensions.swift in Sources */,
 				D0CED7982CD1296900519E90 /* BrowseView.swift in Sources */,
 				D0CED7922CD1031300519E90 /* MessageView.swift in Sources */,
+				D0CED79A2CD1D11700519E90 /* ImageGridView.swift in Sources */,
 				D096DFC92CCFEBFD00C78E2D /* FeedView.swift in Sources */,
 				D096DFD02CCFFAB400C78E2D /* PostArrayObject.swift in Sources */,
 				D096DFCB2CCFECDF00C78E2D /* PostView.swift in Sources */,

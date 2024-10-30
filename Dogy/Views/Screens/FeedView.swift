@@ -10,21 +10,22 @@ import SwiftUI
 struct FeedView: View {
     
     @ObservedObject var post: PostArrayObject
+    var title: String
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             ForEach(post.dataArray) { post in
-                PostView(post: post)
+                PostView(post: post, showHeaderAndFooter: true)
             }
         }
-        .navigationTitle("FeedView")
+        .navigationTitle(title)
         .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 #Preview {
     NavigationView(content: {
-        FeedView(post: PostArrayObject())
+        FeedView(post: PostArrayObject(), title: "FEED VIEW")
     })
     
 }
