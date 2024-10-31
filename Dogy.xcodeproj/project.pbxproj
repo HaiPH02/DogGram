@@ -18,6 +18,8 @@
 		D096DFCE2CCFF61C00C78E2D /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DFCD2CCFF61C00C78E2D /* PostModel.swift */; };
 		D096DFD02CCFFAB400C78E2D /* PostArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DFCF2CCFFAB400C78E2D /* PostArrayObject.swift */; };
 		D096DFD22CD0C8CB00C78E2D /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DFD12CD0C8CB00C78E2D /* CommentsView.swift */; };
+		D0A4FCD22CD35BEE0088C284 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4FCD12CD35BEE0088C284 /* UploadView.swift */; };
+		D0A4FCD42CD361B70088C284 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4FCD32CD361B70088C284 /* ImagePicker.swift */; };
 		D0CED7922CD1031300519E90 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CED7912CD1031300519E90 /* MessageView.swift */; };
 		D0CED7942CD1054900519E90 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CED7932CD1054900519E90 /* CommentModel.swift */; };
 		D0CED7962CD128A100519E90 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CED7952CD128A100519E90 /* CarouselView.swift */; };
@@ -38,6 +40,8 @@
 		D096DFCD2CCFF61C00C78E2D /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		D096DFCF2CCFFAB400C78E2D /* PostArrayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostArrayObject.swift; sourceTree = "<group>"; };
 		D096DFD12CD0C8CB00C78E2D /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
+		D0A4FCD12CD35BEE0088C284 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		D0A4FCD32CD361B70088C284 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		D0CED7912CD1031300519E90 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		D0CED7932CD1054900519E90 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 		D0CED7952CD128A100519E90 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
@@ -109,6 +113,7 @@
 				D0CED7952CD128A100519E90 /* CarouselView.swift */,
 				D0CED7992CD1D11700519E90 /* ImageGridView.swift */,
 				D0CED7912CD1031300519E90 /* MessageView.swift */,
+				D0A4FCD32CD361B70088C284 /* ImagePicker.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			children = (
 				D096DFB22CCF7A5500C78E2D /* DogyApp.swift */,
 				D0CED7972CD1296900519E90 /* BrowseView.swift */,
+				D0A4FCD12CD35BEE0088C284 /* UploadView.swift */,
 				D096DFB42CCF7A5500C78E2D /* ContentView.swift */,
 				D096DFC82CCFEBFD00C78E2D /* FeedView.swift */,
 				D096DFD12CD0C8CB00C78E2D /* CommentsView.swift */,
@@ -225,6 +231,8 @@
 				D096DFD02CCFFAB400C78E2D /* PostArrayObject.swift in Sources */,
 				D096DFCB2CCFECDF00C78E2D /* PostView.swift in Sources */,
 				D0CED7942CD1054900519E90 /* CommentModel.swift in Sources */,
+				D0A4FCD22CD35BEE0088C284 /* UploadView.swift in Sources */,
+				D0A4FCD42CD361B70088C284 /* ImagePicker.swift in Sources */,
 				D096DFD22CD0C8CB00C78E2D /* CommentsView.swift in Sources */,
 				D096DFB32CCF7A5500C78E2D /* DogyApp.swift in Sources */,
 			);
@@ -363,6 +371,8 @@
 				DEVELOPMENT_TEAM = 4HVBTM9MJJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera at the user's request to take a photo";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This allows the app to access the photo library to import or save a photo at the user's request";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -393,6 +403,8 @@
 				DEVELOPMENT_TEAM = 4HVBTM9MJJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera at the user's request to take a photo";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This allows the app to access the photo library to import or save a photo at the user's request";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
